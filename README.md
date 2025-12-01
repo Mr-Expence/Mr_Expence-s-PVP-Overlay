@@ -31,7 +31,7 @@
     <img alt="Available on Modrinth" height="75" src="https://cdn.modrinth.com/data/cached_images/034cb98344b42f7609c074bc2359d5e291b4e382.png">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Mr-Expence" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/Mr-Expence/Mr_Expence-s-PVP-Overlay" target="_blank" rel="noopener noreferrer">
     <img alt="Available on GitHub" height="75" src="https://cdn.modrinth.com/data/cached_images/2b46c0e322b5ff09b298c17cdfe6833c826ac74a.png">
   </a>
 </div>
