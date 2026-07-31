@@ -1,0 +1,3 @@
+{
+    condition: "mrexpencepvp.items.maces.all & !mrexpencepvp.items.firemace & !mrexpencepvp.items.threeDmace"
+}

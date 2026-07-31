@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_sword"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:fire_aspect"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fireaspectsword"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

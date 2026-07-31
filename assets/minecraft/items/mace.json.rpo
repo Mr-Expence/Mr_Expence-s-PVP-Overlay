@@ -1,0 +1,20 @@
+{
+    condition: "mrexpencepvp.items.maces.all & mrexpencepvp.items.firemace & mrexpencepvp.items.threeDmace",
+    fallback: [
+    "assets/minecraft/items/maces/2d.json",
+    "assets/minecraft/items/maces/breachless.json",
+    "assets/minecraft/items/maces/breachless2d.json",
+    "assets/minecraft/items/maces/breachlessfireless.json",
+    "assets/minecraft/items/maces/breachlessfireless2d.json",
+    "assets/minecraft/items/maces/densityless.json",
+    "assets/minecraft/items/maces/densityless2d.json",
+    "assets/minecraft/items/maces/densitylessfireless.json",
+    "assets/minecraft/items/maces/densitylessfireless2d.json",
+    "assets/minecraft/items/maces/fireless.json",
+    "assets/minecraft/items/maces/fireless2d.json",
+    "assets/minecraft/items/maces/fire.json",
+    "assets/minecraft/items/maces/fire2d.json",
+    "assets/minecraft/items/maces/basic3d.json",
+    "assets/minecraft/items/maces/basic2d.json"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    condition: "mrexpencepvp.other.pumpkin.small",
+    fallback: [
+        "assets/minecraft/textures/misc/pumpkinblurnone.png",
+        "assets/minecraft/textures/misc/pumpkinbluroff.png"
+    ]
+}

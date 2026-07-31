@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/1.21.5/bfa"
+    }
+  }

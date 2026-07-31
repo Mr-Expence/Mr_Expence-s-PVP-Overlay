@@ -1,0 +1,24 @@
+{
+  "pack": {
+    "description": {
+      "text": "My custom vanilla Pvp Overlay for Minecraft with blue cobwebs and other features",
+      "type": "text",
+      "extra": [
+        {
+          "text": "\nBy: Mr_Expence ",
+          "color": "blue"
+        },
+        {
+          "player": {
+            "name": "Mr_Expence"
+          },
+          "hat": true,
+          "color": "white"
+        }
+      ],
+      "color": "yellow"
+    },
+    "min_format": 55,
+    "max_format": 9999
+  }
+}

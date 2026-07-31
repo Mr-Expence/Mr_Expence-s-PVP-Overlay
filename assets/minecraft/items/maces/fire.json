@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "fire_aspect"
+      }
+    ],
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "none",
+            "gui",
+            "fixed"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/firemace2d"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/firemace3d"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "none",
+            "gui",
+            "fixed"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/mace2d"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mace3d"
+      }
+    }
+  }
+}

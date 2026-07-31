@@ -1,0 +1,45 @@
+{
+    id: "mrexpencepvp",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        items: {
+            swords: ["all", "fireaspect", "knockback", "none"],
+            shortSwords: True,
+            maces: ["all", "density", "breach", "none"],
+            firemace: true,
+            threeDmace: true,
+            totem: True
+        },
+        blocks: {
+            oreOutline: True,
+            blueCobwebs: True,
+            lowFire: True,
+            water: True,
+            dripstone: True,
+            snow: True
+        },
+        particles: {
+            critical_hit: True,
+            damage: True,
+            effect: True,
+            enchanted_hit: True,
+            explosion: True,
+            flash: True,
+            footprint: True,
+            generic: True,
+            glitter: True,
+            gust: True,
+            spark: True,
+            spell: True,
+            sweep: True
+        },
+        other: {
+            bobber: ["small", "none", "off"],
+            pumpkin: ["small", "none", "off"],
+            quietportalsandexplosions: True,
+            totemSound: True,
+            maceSounds: True
+        }
+    }
+}

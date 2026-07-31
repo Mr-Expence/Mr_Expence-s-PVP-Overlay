@@ -1,0 +1,7 @@
+{
+    condition: "mrexpencepvp.other.bobber.small",
+    fallback: [
+        "assets/minecraft/textures/entity/fishing_hook_none.png",
+        "assets/minecraft/textures/entity/fishing_hook_off.png"
+    ]
+}

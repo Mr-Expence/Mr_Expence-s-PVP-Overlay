@@ -1,0 +1,8 @@
+{
+    condition: "mrexpencepvp.items.swords.all",
+    fallback: [
+    "assets/minecraft/items/stone_swords/fireaspect.json",
+    "assets/minecraft/items/stone_swords/knockback.json",
+    "assets/minecraft/items/stone_swords/none.json"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:enchantments",
+    "value": [
+      {
+        "enchantments": "minecraft:breach"
+      }
+    ],
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "none",
+            "gui",
+            "fixed"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/breachmace2d"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/breachmace3d"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "none",
+            "gui",
+            "fixed"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/mace2d"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mace3d"
+      }
+    }
+  }
+}

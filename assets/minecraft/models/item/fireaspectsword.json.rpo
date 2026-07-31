@@ -1,0 +1,6 @@
+{
+    condition: "mrexpencepvp.items.shortSwords",
+    fallback: [
+    "assets/minecraft/models/item/fireaspectswordlong.json"
+    ]
+}

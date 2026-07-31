@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wooden_sword"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:knockback"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/knockbacksword"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}
